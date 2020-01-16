@@ -1,0 +1,238 @@
+* {
+    font-family: 'Open Sans';
+}
+
+p {
+    color: #494848;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #585858;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.line {
+    height: 2px;
+    background-color: #ff3f40;
+    margin-bottom: 50px;
+}
+
+.header {
+    background-color: #f6f2f2;
+    padding-bottom: 110px;
+}
+
+.nav {
+    padding: 0 !important;
+}
+
+.menu {
+    text-transform: uppercase;
+}
+
+.main_menu {
+    background-color: #313030;
+    width: 100%;
+}
+
+    .main_menu__link {
+        color: #e0e0e0;
+        font-weight: bold;
+        padding: 25px !important;
+    }
+
+        .main_menu__link:hover {
+        background-color: #ff3f40;
+        color: #e0e0e0;
+        }
+
+.title {
+    margin-top: 100px;
+}
+
+    .title_header {
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+        .btn {
+            padding: 20px 60px;
+            font-weight: bold;
+            border: 2px solid #ff3f40;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-red {
+            background-color: #ff3f40;
+            color: #f6f2f2;
+        }
+
+            .btn-red:hover {
+                background-color: #f6f2f2;
+                color: #ff3f40;
+            }
+
+    .title_image {
+        box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+
+.content-block-border {
+    border-bottom: 2px solid #ececec;
+}
+
+.content-block {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+    .content-block_header {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .btn-white {
+        background-color: #ffffff;
+        color: #ff3f40;
+        transition: all 0.3s ease;
+    }
+
+        .btn-white:hover {
+            background-color: #ff3f40;
+            color: #ffffff;
+        }
+
+        .little-icon {
+            margin-bottom: 20px;
+        }
+
+.features_menu {
+
+}
+
+    .features_menu__link {
+        font-weight: bold;
+        color: #4c4c4c;
+    }
+
+        .features_menu__link:hover {
+            color: #ff3f40;
+        }
+
+    .features_img {
+        margin-top: 20px;
+        width: 23%;
+        height: 23%;
+        transition: all 0.3s ease;
+    }
+
+        .features_img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+ .socials_link {
+    color: #494848;
+    font-style: italic;
+    transition: all 0.3s ease;
+ }
+
+     .socials_link:hover {
+        color: #ff3f40;
+     }
+
+.meet_image {
+    width: 23%;
+    height: 23%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+    .meet_image:hover {
+        border-right: 2px solid #ff3f40;
+        opacity: 0.4;
+    }
+
+.subscribe {
+    background-color: #313030;
+    padding: 40px 0;
+}
+
+.subscribe-block {
+    margin-top: 40px;
+}
+
+.btn-red-subscribe {
+    padding: 20px 60px;
+    font-weight: bold;
+    border: 2px solid #ff3f40;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.input-form {
+    margin-bottom: 20px;
+}
+
+.message-input {
+    height: 250px;
+}
+
+.send-button {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.contact-block {
+    background-color: #313030;
+    height: 100%;
+    /*width: 100%;*/
+}
+
+.contact-block-text {
+    margin-top: 20%;
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: #313030;
+    padding-top: 20px;
+}
+
+.socials {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.socials-link {
+    text-align: center;
+    /*padding: 10px;*/
+    background-color: snow;
+    color: #313030;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+    .socials-link:hover {
+        color: snow;
+        background-color: #313030;
+        text-decoration: none;
+    }
